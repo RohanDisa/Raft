@@ -2,10 +2,6 @@
 
 A from-scratch implementation of the [Raft consensus algorithm](https://raft.github.io/raft.pdf) in modern C++, with a fault-tolerant, linearizable key-value store layered on top. Nodes talk over gRPC, run as separate processes, and keep serving requests through leader crashes, network partitions, and message loss.
 
-Built for CSCI 546 (Distributed Systems) at USC.
-
-<!-- TODO(Rohan): verify every number in this README before pushing. -->
-
 ## Highlights
 
 - **Leader election** with randomized timeouts (150 to 300 ms), term-based step-down, and the "at least as up to date" vote restriction from Section 5.4.1 of the paper.
