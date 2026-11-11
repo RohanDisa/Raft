@@ -17,8 +17,6 @@ A from-scratch implementation of the [Raft consensus algorithm](https://raft.git
 
 All numbers below were measured on a 3-node cluster running on one machine (localhost gRPC), using the included `latency` and `tput` benchmarks.
 
-<!-- TODO(Rohan): replace with your own runs. Machine: ______ (CPU, cores, RAM, OS) -->
-
 ### Test suite
 
 | Suite | Tests | Passing |
